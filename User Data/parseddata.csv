@@ -1,0 +1,11 @@
+user_id,scheme,login_attempts,login_successes,login_failure,average_success_time,average_fail_time,total_success_time,total_fail_time
+scheme2,schemer,9,0,3,0,45.681,0,137.042
+scheme3,schemer,9,0,3,0,35.875,0,107.626
+scheme4,schemer,9,0,3,0,31.915,0,95.744
+scheme5,schemer,8,1,7,30.637,41.291,30.637,82.581
+scheme6,schemer,7,1,6,16.253,58.328,16.253,116.656
+scheme7,schemer,5,3,2,26.846,0,80.538,0
+scheme8,schemer,3,3,0,18.733,0,56.199,0
+scheme9,schemer,7,2,5,39.085,20.91,78.17,20.91
+scheme10,schemer,5,2,3,19.079,142.898,38.157,142.898
+scheme11,schemer,9,0,9,0,54.459,0,163.376

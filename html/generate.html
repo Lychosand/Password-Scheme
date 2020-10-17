@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Schemer</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  		<header class="masthead mb-auto">
+  			<script src='client.js'></script>
+        <script src='message.js'></script>
+
+ 				<div class="inner">
+      		<h3 class="masthead-brand">Schemer</h3>      	
+
+          <div class="info">
+            <p>
+              1. Memorize the password in association with the reason <br>
+              2. Input the password to confirm <br>
+              3. After all three have been confirmed you may begin <br>
+              4. The rules are simple <br>
+              5. You get three attempts at each password, three unsuccesful attempts will be considered a fail <br>
+              6. After you have finished please fill out the onscreen questionnaire <br>
+            </p>
+          </div>		
+    		</div>
+  		</header>
+
+      <div class="password-main">
+  			<div class="password-display">
+          <div class="overlay" id="overlay0" onclick="reset(this)">
+            <div class="hello">Click Here To View Again</div>
+          </div>
+				  <p class="password-label" id=password0>Label</p>
+
+  				<div class="elements-wrapper">
+  					<p class="password-elements" id=int0>This</p>
+  					<p class="password-elements-hyphen">-</p>
+  					<img class="password-elements" id=img0 src="images/0.png">
+  					<p class="password-elements-hyphen">-</p>
+  					<p class="password-elements" id=uni0>This</p>
+
+  				</div>
+
+  				<div class="user-input">
+            <input type="text" id=int_input0 class="password-elements" maxlength="4" style="text-align:center">
+            <p class="password-elements-hyphen">-</p>
+            <input type="image" id=img_input0 class="password-elements" src="images/huh.png" onclick="imageModal(this)">
+            <p class="password-elements-hyphen">-</p>
+            <p id=uni_input0 class="password-elements" onclick="emojiModal(this)" style="cursor: pointer">&#x2753</p>
+          </div>
+
+          <a id=btn0 class="btn btn-lg btn-secondary" onclick="sendEvent('Input', 0)">Check</a>
+  			</div>
+
+        <div class="password-display">
+          <div class="overlay" id="overlay1" onclick="reset(this)">
+            <div class="hello">Click Here To View Again</div>
+          </div>
+          <p class="password-label" id=password1>Label</p>
+
+          <div class="elements-wrapper">
+            <p class="password-elements" id=int1>This</p>
+            <p class="password-elements-hyphen">-</p>
+            <img class="password-elements" id=img1 src="images/0.png">
+            <p class="password-elements-hyphen">-</p>
+            <p class="password-elements" id=uni1>This</p>
+
+          </div>
+
+          <div class="user-input">
+            <input type="text" id=int_input1 class="password-elements" maxlength="4" style="text-align:center">
+            <p class="password-elements-hyphen">-</p>
+            <input type="image" id=img_input1 class="password-elements" src="images/huh.png" onclick="imageModal(this)">
+            <p class="password-elements-hyphen">-</p>
+            <p id=uni_input1 class="password-elements" onclick="emojiModal(this)" style="cursor: pointer">&#x2753</p>
+          </div>
+
+          <a id=btn1 class="btn btn-lg btn-secondary" onclick="sendEvent('Input', 1)">Check</a>
+        </div>
+
+        <div class="password-display">
+          <div class="overlay" id="overlay2" onclick="reset(this)">
+            <div class="hello">Click Here To View Again</div>
+          </div>
+          <p class="password-label" id=password2>Label</p>
+
+          <div class="elements-wrapper">
+            <p class="password-elements" id=int2>This</p>
+            <p class="password-elements-hyphen">-</p>
+            <img class="password-elements" id=img2 src="images/0.png">
+            <p class="password-elements-hyphen">-</p>
+            <p class="password-elements" id=uni2>This</p>
+
+          </div>
+
+          <div class="user-input">
+            <input type="text" id=int_input2 class="password-elements" maxlength="4" style="text-align:center">
+            <p class="password-elements-hyphen">-</p>
+            <input type="image" id=img_input2 class="password-elements" src="images/huh.png" onclick="imageModal(this)">
+            <p class="password-elements-hyphen">-</p>
+            <p id=uni_input2 class="password-elements" onclick="emojiModal(this)" style="cursor: pointer">&#x2753</p>
+          </div>
+
+          <a id=btn2 class="btn btn-lg btn-secondary" onclick="sendEvent('Input', 2)">Check</a>
+        </div>
+        <a href="/guess.html" class="btn btn-lg btn-secondary" id="generate_next">Next</a>
+      </div>
+    </div>
+
+    <div id="image_modal" class="modal">
+      <div class="modal-content" id="img_modal_content">
+        <span class="close">&times;</span>
+        <p>Please Select Appropriate Image</p>
+      </div>
+    </div>
+
+    <div id="emoji_modal" class="modal">
+      <div class="modal-content" id="emoji_modal_content">
+        <span class="close">&times;</span>
+        <p>Please Select Appropriate Emoji</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var new_div = document.createElement("div");
+      new_div.id = 'emoji';
+      document.getElementById('emoji_modal_content').appendChild(new_div);
+
+      for(var i=0; i < 10; i++) {
+        var elem = document.createElement('btn');
+        elem.id = "emoji" + i;
+        elem.innerText = String.fromCodePoint(unicode_array[i]);
+        elem.style.fontSize = "xx-large";
+        elem.display = "inline-block";
+        elem.style.margin = "10px";
+        elem.style.cursor = "pointer";
+        elem.onclick = function() {emojiClicked(this)};
+        document.getElementById(new_div.id).appendChild(elem);
+      }
+    </script>
+
+    <script type="text/javascript">
+      var column = 0;
+
+      for(var i=0; i < 21; i++) {
+        var column_check = i % 7;
+
+        if(column_check == 0) {
+          var new_div = document.createElement("div");
+          new_div.id = 'column' + column++;
+          new_div.class = "image-row";
+          document.getElementById('img_modal_content').appendChild(new_div);
+        }
+
+        var img_src = 'images/' + i + '.png';
+        var elem = document.createElement("img");
+        elem.src = img_src;
+        elem.id = img_src;
+        elem.width = 163;
+        elem.height = 163;
+        elem.display = "inline-block";
+        elem.style.cursor = "pointer";
+        elem.onclick = function() {imageClicked(this)};
+        document.getElementById(new_div.id).appendChild(elem);
+      }
+
+    </script>
+  </body>
+</html>

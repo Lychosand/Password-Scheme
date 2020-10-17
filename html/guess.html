@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Schemer</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+
+  	<body class="text-center">
+    	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  			<header class="masthead mb-auto">
+          <script src='message.js'></script>
+  				<script src='game.js'></script>
+  			</header>
+
+  			<div class="password-main">
+        <div class="password-display">
+          <div class="overlay" id="overlay" onclick="reset(this)">
+            <div class="hello" id="overlay-content-text">Click Here To View Again</div>
+          </div>
+          <p class="password-label" id=password>Label</p>
+
+          <div class="user-input" style="margin-top:75px">
+            <input type="text" id=int_input class="password-elements" maxlength="4" style="text-align:center">
+            <p class="password-elements-hyphen">-</p>
+            <input type="image" id=img_input class="password-elements" src="images/huh.png" onclick="imageModal(this)">
+            <p class="password-elements-hyphen">-</p>
+            <p id=uni_input class="password-elements" onclick="emojiModal(this)" style="cursor: pointer">&#x2753</p>
+          </div>
+
+          <a class="btn btn-lg btn-secondary" onclick="sendEvent('Attempt', null)">Check</a>
+        </div>
+    	</div>
+
+          <div id="image_modal" class="modal">
+      <div class="modal-content" id="img_modal_content">
+        <span class="close">&times;</span>
+        <p>Please Select Appropriate Image</p>
+      </div>
+    </div>
+
+    <div id="emoji_modal" class="modal">
+      <div class="modal-content" id="emoji_modal_content">
+        <span class="close">&times;</span>
+        <p>Please Select Appropriate Emoji</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var new_div = document.createElement("div");
+      new_div.id = 'emoji';
+      document.getElementById('emoji_modal_content').appendChild(new_div);
+
+      for(var i=0; i < 10; i++) {
+        var elem = document.createElement('btn');
+        elem.id = "emoji" + i;
+        elem.innerText = String.fromCodePoint(unicode_array[i]);
+        elem.style.fontSize = "xx-large";
+        elem.display = "inline-block";
+        elem.style.margin = "10px";
+        elem.style.cursor = "pointer";
+        elem.onclick = function() {emojiClicked(this)};
+        document.getElementById(new_div.id).appendChild(elem);
+      }
+    </script>
+
+    <script type="text/javascript">
+      var column = 0;
+
+      for(var i=0; i < 21; i++) {
+        var column_check = i % 7;
+
+        if(column_check == 0) {
+          var new_div = document.createElement("div");
+          new_div.id = 'column' + column++;
+          new_div.class = "image-row";
+          document.getElementById('img_modal_content').appendChild(new_div);
+        }
+
+        var img_src = 'images/' + i + '.png';
+        var elem = document.createElement("img");
+        elem.src = img_src;
+        elem.id = img_src;
+        elem.width = 163;
+        elem.height = 163;
+        elem.display = "inline-block";
+        elem.style.cursor = "pointer";
+        elem.onclick = function() {imageClicked(this)};
+        document.getElementById(new_div.id).appendChild(elem);
+      }
+
+    </script>
+  	</body>
+</html>

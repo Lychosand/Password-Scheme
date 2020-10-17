@@ -1,0 +1,284 @@
+date,userid,scheme,website,action,event
+2019-03-27T20:24:39.948Z,scheme1,Password Scheme,Schemer,Generate,Success
+2019-03-27T20:24:40.251Z,scheme1,Password Scheme,Schemer,Request,
+2019-04-04T19:20:21.786Z,scheme2,Password Scheme,Schemer,Request,
+2019-04-04T19:20:35.354Z,scheme2,Password Scheme,Schemer,Generate,Success
+2019-04-04T19:20:35.742Z,scheme2,Password Scheme,Schemer,Request,
+2019-04-04T19:21:15.810Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:21:33.662Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:21:42.188Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:21:44.161Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:21:55.223Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:22:04.395Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:22:05.790Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:22:21.199Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:22:29.965Z,scheme2,Password Scheme,Schemer,Input,
+2019-04-04T19:22:33.038Z,scheme2,Password Scheme,Schemer,Begin,
+2019-04-04T19:22:52.118Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:22:52.118Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:23:01.714Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:23:01.714Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:23:14.894Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:23:14.894Z,scheme2,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:23:14.932Z,scheme2,Password Scheme,Schemer,Begin,
+2019-04-04T19:24:04.815Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:04.815Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:24:14.631Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:14.631Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:24:22.331Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:22.331Z,scheme2,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:24:22.369Z,scheme2,Password Scheme,Schemer,Begin,
+2019-04-04T19:24:33.448Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:33.448Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:24:43.230Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:43.230Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:24:50.156Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:50.156Z,scheme2,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:24:56.102Z,scheme2,Password Scheme,Schemer,Attempt,
+2019-04-04T19:24:56.102Z,scheme2,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:26:43.350Z,scheme2,Password Scheme,Schemer,Generate,Success
+2019-04-04T19:26:44.293Z,scheme2,Password Scheme,Schemer,Request,
+date,userid,scheme,website,action,event
+2019-04-04T19:27:37.313Z,scheme3,Password Scheme,Schemer,Generate,Success
+2019-04-04T19:27:38.185Z,scheme3,Password Scheme,Schemer,Request,
+2019-04-04T19:29:30.214Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:29:36.413Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:29:39.069Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:30:45.028Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:30:45.663Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:30:46.661Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:30:53.255Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:31:00.675Z,scheme3,Password Scheme,Schemer,Input,
+2019-04-04T19:31:03.757Z,scheme3,Password Scheme,Schemer,Begin,
+2019-04-04T19:31:23.950Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:31:23.950Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:31:29.372Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:31:29.372Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:31:37.458Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:31:37.458Z,scheme3,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:31:37.497Z,scheme3,Password Scheme,Schemer,Begin,
+2019-04-04T19:32:08.609Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:08.609Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:32:14.233Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:14.233Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:32:21.599Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:21.599Z,scheme3,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:32:21.618Z,scheme3,Password Scheme,Schemer,Begin,
+2019-04-04T19:32:23.664Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:23.664Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:32:45.983Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:45.983Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:32:51.441Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:51.441Z,scheme3,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:32:56.867Z,scheme3,Password Scheme,Schemer,Attempt,
+2019-04-04T19:32:56.867Z,scheme3,Password Scheme,Schemer,Attempt,Try Again
+date,userid,scheme,website,action,event
+2019-04-04T19:34:58.880Z,scheme4,Password Scheme,Schemer,Generate,Success
+2019-04-04T19:34:59.995Z,scheme4,Password Scheme,Schemer,Request,
+2019-04-04T19:35:28.340Z,scheme4,Password Scheme,Schemer,Input,
+2019-04-04T19:36:22.777Z,scheme4,Password Scheme,Schemer,Input,
+2019-04-04T19:36:42.610Z,scheme4,Password Scheme,Schemer,Input,
+2019-04-04T19:36:58.958Z,scheme4,Password Scheme,Schemer,Input,
+2019-04-04T19:37:11.887Z,scheme4,Password Scheme,Schemer,Begin,
+2019-04-04T19:37:29.697Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:37:29.697Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:37:49.282Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:37:49.282Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:38:13.456Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:13.456Z,scheme4,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:38:13.495Z,scheme4,Password Scheme,Schemer,Begin,
+2019-04-04T19:38:25.913Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:25.913Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:38:31.142Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:31.142Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:38:31.341Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:31.341Z,scheme4,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:38:31.381Z,scheme4,Password Scheme,Schemer,Begin,
+2019-04-04T19:38:39.053Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:39.053Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:38:45.918Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:45.918Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:38:47.710Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:47.710Z,scheme4,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:38:56.072Z,scheme4,Password Scheme,Schemer,Attempt,
+2019-04-04T19:38:56.072Z,scheme4,Password Scheme,Schemer,Attempt,Try Again
+date,userid,scheme,website,action,event
+2019-04-04T19:43:11.130Z,scheme5,Password Scheme,Schemer,Generate,Success
+2019-04-04T19:43:11.499Z,scheme5,Password Scheme,Schemer,Request,
+2019-04-04T19:43:59.528Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:44:07.015Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:44:54.810Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:44:57.356Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:44:58.458Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:44:59.128Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:45:29.104Z,scheme5,Password Scheme,Schemer,Input,
+2019-04-04T19:45:38.459Z,scheme5,Password Scheme,Schemer,Begin,
+2019-04-04T19:45:50.186Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:45:50.186Z,scheme5,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:46:01.936Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:46:01.936Z,scheme5,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:46:14.900Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:46:14.900Z,scheme5,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:46:14.920Z,scheme5,Password Scheme,Schemer,Begin,
+2019-04-04T19:46:23.005Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:46:23.005Z,scheme5,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:46:45.557Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:46:45.557Z,scheme5,Password Scheme,Schemer,Attempt,Success
+2019-04-04T19:46:45.572Z,scheme5,Password Scheme,Schemer,Begin,
+2019-04-04T19:47:14.600Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:47:14.600Z,scheme5,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:47:26.036Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:47:26.036Z,scheme5,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:47:31.712Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:47:31.712Z,scheme5,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:47:37.914Z,scheme5,Password Scheme,Schemer,Attempt,
+2019-04-04T19:47:37.914Z,scheme5,Password Scheme,Schemer,Attempt,Try Again
+date,userid,scheme,website,action,event
+2019-04-04T19:50:09.847Z,scheme6,Password Scheme,Schemer,Generate,Success
+2019-04-04T19:50:11.068Z,scheme6,Password Scheme,Schemer,Request,
+2019-04-04T19:52:07.275Z,scheme6,Password Scheme,Schemer,Input,
+2019-04-04T19:52:11.575Z,scheme6,Password Scheme,Schemer,Input,
+2019-04-04T19:52:15.328Z,scheme6,Password Scheme,Schemer,Input,
+2019-04-04T19:52:24.442Z,scheme6,Password Scheme,Schemer,Begin,
+2019-04-04T19:52:40.695Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:52:40.695Z,scheme6,Password Scheme,Schemer,Attempt,Success
+2019-04-04T19:52:40.735Z,scheme6,Password Scheme,Schemer,Begin,
+2019-04-04T19:52:54.072Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:52:54.072Z,scheme6,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:53:19.382Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:53:19.382Z,scheme6,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:53:35.659Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:53:35.659Z,scheme6,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:53:35.695Z,scheme6,Password Scheme,Schemer,Begin,
+2019-04-04T19:54:10.134Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:54:10.134Z,scheme6,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:54:26.711Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:54:26.711Z,scheme6,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T19:54:37.427Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:54:37.427Z,scheme6,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T19:54:38.588Z,scheme6,Password Scheme,Schemer,Attempt,
+2019-04-04T19:54:38.588Z,scheme6,Password Scheme,Schemer,Attempt,Try Again
+date,userid,scheme,website,action,event
+2019-04-04T20:01:58.702Z,scheme7,Password Scheme,Schemer,Generate,Success
+2019-04-04T20:01:59.160Z,scheme7,Password Scheme,Schemer,Request,
+2019-04-04T20:03:06.444Z,scheme7,Password Scheme,Schemer,Input,
+2019-04-04T20:03:07.922Z,scheme7,Password Scheme,Schemer,Input,
+2019-04-04T20:03:10.863Z,scheme7,Password Scheme,Schemer,Input,
+2019-04-04T20:03:15.204Z,scheme7,Password Scheme,Schemer,Begin,
+2019-04-04T20:03:27.054Z,scheme7,Password Scheme,Schemer,Attempt,
+2019-04-04T20:03:27.054Z,scheme7,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:03:27.092Z,scheme7,Password Scheme,Schemer,Begin,
+2019-04-04T20:03:52.772Z,scheme7,Password Scheme,Schemer,Attempt,
+2019-04-04T20:03:52.772Z,scheme7,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T20:04:02.514Z,scheme7,Password Scheme,Schemer,Attempt,
+2019-04-04T20:04:02.514Z,scheme7,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T20:04:15.721Z,scheme7,Password Scheme,Schemer,Attempt,
+2019-04-04T20:04:15.721Z,scheme7,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:04:15.762Z,scheme7,Password Scheme,Schemer,Begin,
+2019-04-04T20:04:35.821Z,scheme7,Password Scheme,Schemer,Attempt,
+2019-04-04T20:04:35.821Z,scheme7,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:04:45.464Z,scheme7,Password Scheme,Schemer,Attempt,
+2019-04-04T20:04:45.464Z,scheme7,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:05:06.547Z,scheme7,Password Scheme,Schemer,Generate,Success
+2019-04-04T20:05:07.378Z,scheme7,Password Scheme,Schemer,Request,
+date,userid,scheme,website,action,event
+2019-04-04T20:05:28.550Z,scheme8,Password Scheme,Schemer,Request,
+2019-04-04T20:05:39.019Z,scheme8,Password Scheme,Schemer,Generate,Success
+2019-04-04T20:05:39.544Z,scheme8,Password Scheme,Schemer,Request,
+2019-04-04T20:06:14.393Z,scheme8,Password Scheme,Schemer,Input,
+2019-04-04T20:06:16.918Z,scheme8,Password Scheme,Schemer,Input,
+2019-04-04T20:06:20.585Z,scheme8,Password Scheme,Schemer,Input,
+2019-04-04T20:06:59.706Z,scheme8,Password Scheme,Schemer,Begin,
+2019-04-04T20:07:26.159Z,scheme8,Password Scheme,Schemer,Attempt,
+2019-04-04T20:07:26.159Z,scheme8,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:07:26.199Z,scheme8,Password Scheme,Schemer,Begin,
+2019-04-04T20:07:44.176Z,scheme8,Password Scheme,Schemer,Attempt,
+2019-04-04T20:07:44.176Z,scheme8,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:07:44.215Z,scheme8,Password Scheme,Schemer,Begin,
+2019-04-04T20:07:55.984Z,scheme8,Password Scheme,Schemer,Attempt,
+2019-04-04T20:07:55.984Z,scheme8,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:08:03.119Z,scheme8,Password Scheme,Schemer,Attempt,
+2019-04-04T20:08:03.119Z,scheme8,Password Scheme,Schemer,Attempt,Success
+date,userid,scheme,website,action,event
+2019-04-04T20:09:43.280Z,scheme9,Password Scheme,Schemer,Generate,Success
+2019-04-04T20:09:43.874Z,scheme9,Password Scheme,Schemer,Request,
+2019-04-04T20:10:02.912Z,scheme9,Password Scheme,Schemer,Input,
+2019-04-04T20:10:03.982Z,scheme9,Password Scheme,Schemer,Input,
+2019-04-04T20:10:28.572Z,scheme9,Password Scheme,Schemer,Input,
+2019-04-04T20:10:29.488Z,scheme9,Password Scheme,Schemer,Input,
+2019-04-04T20:10:49.130Z,scheme9,Password Scheme,Schemer,Input,
+2019-04-04T20:10:49.978Z,scheme9,Password Scheme,Schemer,Input,
+2019-04-04T20:11:13.285Z,scheme9,Password Scheme,Schemer,Begin,
+2019-04-04T20:11:33.906Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:11:33.906Z,scheme9,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T20:11:58.763Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:11:58.763Z,scheme9,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:11:58.803Z,scheme9,Password Scheme,Schemer,Begin,
+2019-04-04T20:12:08.149Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:12:08.149Z,scheme9,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T20:12:31.495Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:12:31.495Z,scheme9,Password Scheme,Schemer,Attempt,Success
+2019-04-04T20:12:31.533Z,scheme9,Password Scheme,Schemer,Begin,
+2019-04-04T20:12:48.198Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:12:48.198Z,scheme9,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T20:12:50.711Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:12:50.711Z,scheme9,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T20:12:52.443Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:12:52.443Z,scheme9,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T20:12:55.099Z,scheme9,Password Scheme,Schemer,Attempt,
+2019-04-04T20:12:55.099Z,scheme9,Password Scheme,Schemer,Attempt,Try Again
+date,userid,scheme,website,action,event
+2019-04-04T22:31:28.988Z,scheme10,Password Scheme,Schemer,Generate,Success
+2019-04-04T22:31:30.319Z,scheme10,Password Scheme,Schemer,Request,
+2019-04-04T22:33:05.121Z,scheme10,Password Scheme,Schemer,Input,
+2019-04-04T22:33:06.445Z,scheme10,Password Scheme,Schemer,Input,
+2019-04-04T22:33:08.340Z,scheme10,Password Scheme,Schemer,Input,
+2019-04-04T22:33:11.004Z,scheme10,Password Scheme,Schemer,Input,
+2019-04-04T22:35:58.132Z,scheme10,Password Scheme,Schemer,Input,
+2019-04-04T22:36:00.908Z,scheme10,Password Scheme,Schemer,Input,
+2019-04-04T22:36:06.154Z,scheme10,Password Scheme,Schemer,Begin,
+2019-04-04T22:36:19.380Z,scheme10,Password Scheme,Schemer,Attempt,
+2019-04-04T22:36:19.380Z,scheme10,Password Scheme,Schemer,Attempt,Success
+2019-04-04T22:36:19.419Z,scheme10,Password Scheme,Schemer,Begin,
+2019-04-04T22:36:44.350Z,scheme10,Password Scheme,Schemer,Attempt,
+2019-04-04T22:36:44.350Z,scheme10,Password Scheme,Schemer,Attempt,Success
+2019-04-04T22:36:44.370Z,scheme10,Password Scheme,Schemer,Begin,
+2019-04-04T22:37:18.536Z,scheme10,Password Scheme,Schemer,Attempt,
+2019-04-04T22:37:18.536Z,scheme10,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:37:24.941Z,scheme10,Password Scheme,Schemer,Attempt,
+2019-04-04T22:37:24.941Z,scheme10,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:39:07.268Z,scheme10,Password Scheme,Schemer,Attempt,
+2019-04-04T22:39:07.268Z,scheme10,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T22:39:30.254Z,scheme10,Password Scheme,Schemer,Attempt,
+2019-04-04T22:39:30.254Z,scheme10,Password Scheme,Schemer,Attempt,Success
+date,userid,scheme,website,action,event
+2019-04-04T22:46:44.084Z,scheme11,Password Scheme,Schemer,Generate,Success
+2019-04-04T22:46:44.682Z,scheme11,Password Scheme,Schemer,Request,
+2019-04-04T22:48:09.742Z,scheme11,Password Scheme,Schemer,Input,
+2019-04-04T22:48:55.835Z,scheme11,Password Scheme,Schemer,Input,
+2019-04-04T22:48:58.142Z,scheme11,Password Scheme,Schemer,Input,
+2019-04-04T22:49:20.639Z,scheme11,Password Scheme,Schemer,Input,
+2019-04-04T22:49:30.997Z,scheme11,Password Scheme,Schemer,Input,
+2019-04-04T22:49:35.227Z,scheme11,Password Scheme,Schemer,Begin,
+2019-04-04T22:50:33.377Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:50:33.377Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:50:51.303Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:50:51.303Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:52:06.218Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:06.218Z,scheme11,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T22:52:06.259Z,scheme11,Password Scheme,Schemer,Begin,
+2019-04-04T22:52:09.206Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:09.206Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:52:10.007Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:10.007Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:52:10.966Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:10.966Z,scheme11,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T22:52:10.989Z,scheme11,Password Scheme,Schemer,Begin,
+2019-04-04T22:52:11.743Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:11.743Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:52:17.023Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:17.023Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
+2019-04-04T22:52:18.667Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:18.667Z,scheme11,Password Scheme,Schemer,Attempt,Fail
+2019-04-04T22:52:20.245Z,scheme11,Password Scheme,Schemer,Attempt,
+2019-04-04T22:52:20.245Z,scheme11,Password Scheme,Schemer,Attempt,Try Again
